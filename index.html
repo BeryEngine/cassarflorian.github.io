@@ -1,62 +1,44 @@
 <!DOCTYPE html>
-
-<html>
-
-    <head>
-
-        <title>CassarFlorian_site_Web_Designer</title>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" href="style.css" >
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-
-    </head>
-
-    <body>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="top-page">
+        <header class="header">
+            <img src="images/RDR_prtfolio.png" alt="mignature-projet">
+            <nav class="nav">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#2">future case</a></li>
+                <li><a href="#1">future case 2</a></li>
+            </nav>
+        </header>
+        <div class="landing-page">
+            <h1 class="big-title">le design pour tous</h1>
+        </div>
         
-        <div class="card" id="moi"> 
-            <h2>[ Le Designer ]</h2>
-            <h3>CASSAR Florian</h3>
-            <h3>26 ans</h3>
-            <h3>passioné de 3D</h3>
-
+    </section>
+    
+    <section class="services" id="services">
+        <div class="service-item">
+            <p class="service-details">Nos agences</p>
         </div>
-        <h2>Software</h2>
-        <div class="container" id="software">
-            <div class="card2" id="unreal">
-                <h4>code/dev</h4>
-                <img  src="src/image/Un.png" height="100" width="100">
-            </div>
-            <div class="card2" id="blender">
-                <h4>Animation</h4>
-                <img  src="src/image/Blend.png" height="100" width="100">
-            </div>
-            <div class="card2" id="adobe">
-                <h4>suite</h4>
-                <img  src="src/image/Ad.png" height="100" width="100">
-            </div>
-
+        <div class="service-item">
+            <p class="service-details">Nos services</p>
         </div>
-        <h2>Client</h2>
-        <div  class="container" id="client">
-            <div class="card2" id="gepetto">
-                <h4>Gepetto</h4>
-                <img  src="src/image/Gep.png" height="100" width="100">
-            </div>
-            <div class="card2" id="paulr">
-                <h4>Paul Ricard</h4>
-                <img  src="src/image/Pr.png" height="100" width="100">
-            </div>
-            <div class="card2" id="region">
-                <h4>Region Sud</h4>
-                <img  src="src/image/Rs.png" >
-            </div>
-
+        <div class="service-item">
+            <p class="service-details">contact et FAQ</p>
         </div>
+    </section> 
 
-        
+    
+    <footer>
+        <p class="copyright">&copy; 2023 - coding skills</p>
+        <a href="" class="cgv">Conditions générales de satisfaction : norm° 65 983</a>
+    </footer>
 
-    </body>
-
+</body>
 </html>
